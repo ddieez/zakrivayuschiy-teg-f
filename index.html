@@ -538,13 +538,13 @@
             </footer>
           </article>
         </li>
-        <li class="cards-list__item">
+        <li class="cards-list__item cards-list__last">
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">«Сейчас я здесь»</h2>
             </header>
             <div class="card__img-wrapper">
-              <span class="card__img-label ">&lt;experience&gt;</span>
+              <span class="card__img-label card_img-label_low">&lt;experience&gt;</span>
               <img
                 class="card__img filter-hue-rotate"
                 src="./images/image.png"
@@ -613,7 +613,7 @@
       </ul>
       <button
         type="button"
-        onclick="window.modal.showModal();"
+        onclick="window.modal.showModal(1);"
         aria-controls="modal"
         class="button button--save"
       >
@@ -628,7 +628,7 @@
         <svg class="modal__icon" viewBox="0 0 29 28">
           <use href="svg/floppy.svg#floppy" />
         </svg>
-        <p>Вставьте дискету,чтобы продолжить</p>
+        <p>Вставьте дискету, чтобы продолжить</p>
       </div>
       <form method="dialog">
         <button type="submit" class="button modal__button">
